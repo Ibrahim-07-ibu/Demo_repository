@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: black;
+  color: white;
+  line-height: 1.6;
+  font-size: 25px;
+}
+
+main {
+  font-size: 25px;
+}
+
+/* Header */
+header {
+  background: #222;
+  padding: 5px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+header .menu {
+  align-items: center;
+  margin-top: 5px;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#logo {
+ width: 70px;
+  height: 60px;
+  border-radius: 20%;
+  padding-top: 10px;
+}
+
+#name {
+  color: white;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #ff9800;
+}
+
+/* Policy Container */
+
+.container h2 {
+  color: #ff9800;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container h3 {
+  color: #f74c6e;
+  margin-top: 20px;
+}
+
+.container p {
+  margin-bottom: 10px;
+  color: #ddd;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 19px;
+}

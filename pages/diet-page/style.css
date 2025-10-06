@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: black;
+    color: white;
+    line-height: 2;
+      font-size: 25px;
+}
+main p {
+    font-size: 23px;
+}
+button{
+    font-size: 23px;
+}
+body img {
+    border-radius: 20px;
+}
+
+header {
+  background: #222;
+  padding: 5px ;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+header .menu{
+  align-items: center;
+  margin-top: 5px;
+}
+/* Logo + Name */
+.logo-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+#logo {
+    width: 70px;
+  height: 60px;
+  border-radius: 20%;
+  padding-top: 10px;
+}
+
+#name {
+    color: white;
+}
+
+/* Menu */
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #ff9800;
+}
+
+/* main */
+.diet {
+    font-size: 25px;
+    border: 1px solid;
+    background-color: rgb(116, 114, 114);
+    text-align: center;
+}
+
+.img1 {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.diet1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.bulking {
+    border: 1px solid;
+    background-color: rgb(247, 76, 110);
+}
+
+.lean {
+    border: 1px solid;
+}
+
+.weight {
+    border: 1px solid;
+    background-color: rgb(247, 76, 110)
+}
+
+.home-button {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.home-button a {
+    text-decoration: none;
+    color: white
+}
+
+.home-button a:hover {
+    text-decoration: none;
+    color: #ff9800
+}
+
+/* footer */
+footer {
+    background: #222;
+    display: flex;
+    color: white;
+    padding: 20px;
+    gap: 8px;
+
+}
+
+footer a {
+    color: #ff9800;
+    text-decoration: none;
+    margin: 10px;
+}
+footer a:hover{
+  color:crimson
+}
