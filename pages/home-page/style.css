@@ -11,7 +11,7 @@ body {
 
 /* Header */
 header {
-  background: #222;
+  background: linear-gradient(to right, #d2d6d7, #031328); /* background color changed*/
   padding: 5px;
 }
 
@@ -149,9 +149,9 @@ video {
 
 /* Footer */
 footer {
-  background: #222;
+  background: linear-gradient(to right, #d2d6d7, #031328); /* background color changed*/
   display: flex;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 20px;
   gap: 8px;
   font-size: 19px;

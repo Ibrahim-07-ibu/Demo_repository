@@ -15,7 +15,7 @@ main {
 
 /* Header */
 header {
-  background: #222;
+  background: linear-gradient(to right, #d2d6d7, #031328); /* background color changed*/
   padding: 5px;
 }
 
@@ -82,7 +82,7 @@ header .menu {
 
 /* Footer */
 footer {
-  background: #222;
+  background: linear-gradient(to right, #d2d6d7, #031328); /* background color changed*/
   color: white;
   padding: 20px;
   text-align: center;
