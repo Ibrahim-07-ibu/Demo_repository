@@ -19,7 +19,7 @@ body img {
 }
 
 header {
-  background: linear-gradient(to right, #d2d6d7, #031328); /* background color changed*/
+  background-color: black;
   padding: 5px ;
 }
 
@@ -124,7 +124,7 @@ header .menu{
 
 /* footer */
 footer {
-  background: linear-gradient(to right, #d2d6d7, #031328); /* background color changed*/
+  background-color: black;
     display: flex;
     color: white;
     padding: 20px;
